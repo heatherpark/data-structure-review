@@ -1,16 +1,16 @@
 ## linked lists
 
 #### how do linked lists work?
-  * allow for sequential access only.
-  * data is stored anywhere in memory.
-  * unlike with arrays, data never has to be moved.
-  * each item stores the address of the next item in the list.
+  * allow for sequential access only
+  * data is stored anywhere in memory
+  * unlike with arrays, data never has to be moved
+  * each item stores the address of the next item in the list
 
 #### upsides:
   * __insertion:__
     * simply change the address stored in the previous item.
     *__real life analogy:__ the movie theater has enough seats to accommodate you and your group of friends,
-    but you can't all sit together.  Y'all are cool with that.
+    but you can't all sit together.  y'all are cool with that.
 
 #### downsides:
   * __reading:__

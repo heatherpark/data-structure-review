@@ -18,8 +18,10 @@
 
 #### time complexities:
   * __reading:__ O(n) -> linear time
-  * __insertion:__ O(1) -> constant time
-  * __deletion:__ O(n) -> linear time (or constant time for head/tail, if either is known)
+  * __insertion:__ 
+    * O(1) -> constant time if adding to head/tail and location of tail is known
+    * O(n) -> linear time if adding to middle of list
+  * __deletion:__ same as insertion
 
 #### implementation:
 

@@ -16,8 +16,8 @@
     * insertion/deletion for any slots other than the last one will cause a shift in all subsequent elements
     * insertion may require more slots than there are in the array, so all elements will have to be transferred
       to a new, more accommodating, array
-    *__real life analogy:__ the movie theater has enough seats to accommodate you and your group of friends,
-      but you'd have to split up, and your friends don't want to do that.
+    * __real life analogy:__ the movie theater has enough seats to accommodate you and your group of friends,
+      but you'd have to split up, and you and your friends really don't want to do that.
 
 #### time complexities:
   * __reading:__ O(1) -> constant time

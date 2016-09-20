@@ -4,5 +4,6 @@
 information on how that data structure is used, its strengths, weaknesses, time complexities for various relevant actions, and
 its implementation.
 
-* arrays
-* linked lists
+__Data structures include:__
+  * arrays
+  * linked lists

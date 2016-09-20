@@ -1,8 +1,8 @@
 ## hash tables
 
 #### how do hash tables work?
-  * maps values to keys
-  * allows constant time lookup for key/value pairs
+  * map values to keys
+  * allow constant time lookup for key/value pairs
 
 #### use cases:
   * lookups
@@ -19,10 +19,10 @@
 
 #### collisions:
   * occur when multiple keys are assigned to the same index
-  * solution: start linked list at that index
+  * __solution:__ start linked list at that index
   * how do you avoid collisions?
-    * good hash function
-    * low ratio of total items to total slots (load factor)
+    * _good hash function_
+    * _low ratio of total items to total slots (**load factor**)_
 
 #### resizing:
   * rule of thumb: double capacity when load factor is greater than 0.7

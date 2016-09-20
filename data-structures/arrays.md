@@ -3,7 +3,7 @@
 #### how do arrays work?
   * allow for both random and sequential access
   * data is stored contiguously
-  * typically, their lengths are predetermiend by the user
+  * typically, their lengths are pre-determined by the user
 
 #### upsides:
   * __reading:__
